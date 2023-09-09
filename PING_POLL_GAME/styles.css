@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    
+}
+
+canvas {
+    border: 2px solid #043d10;
+}
+
+#credit {
+    position: top;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #3431c4;
+    font-size: 16px;
+}
